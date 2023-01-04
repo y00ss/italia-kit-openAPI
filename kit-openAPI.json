@@ -477,7 +477,7 @@
     },
     "/api/v1/italia/comune/{nome_comune}": {
       "get": {
-        "summary": "GetComuneByProvinciaName",
+        "summary": "GetComuneByName",
         "tags": [],
         "responses": {
           "200": {
