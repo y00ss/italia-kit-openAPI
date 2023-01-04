@@ -475,7 +475,7 @@
         }
       ]
     },
-    "/api/v1/italia/provincia/{nome_provincia}/comune/{nome_comune}": {
+    "/api/v1/italia/comune/{nome_comune}": {
       "get": {
         "summary": "GetComuneByProvinciaName",
         "tags": [],
@@ -648,8 +648,8 @@
             "description": "Errore interno"
           }
         },
-        "operationId": "get-comune-by-provincia-name",
-        "description": "Restitutisce tutte le informazioni del comune appartenente alla provincia.",
+        "operationId": "get-comune-by-name",
+        "description": "Restitutisce tutte le informazioni del comune richiesto.",
         "x-internal": false,
         "parameters": [],
         "security": [
@@ -663,35 +663,12 @@
           "schema": {
             "type": "string"
           },
-          "name": "nome_provincia",
-          "in": "path",
-          "required": true,
-          "description": "Nome della Provincia"
-        },
-        {
-          "schema": {
-            "type": "string"
-          },
           "name": "nome_comune",
           "in": "path",
           "required": true,
           "description": "Nome Comune"
         }
       ]
-    },
-    "/api/regioni": {
-      "get": {
-        "summary": "Your GET endpoint",
-        "tags": [],
-        "responses": {},
-        "operationId": "get-api-regioni",
-        "parameters": [],
-        "security": [
-          {
-            "Bearer Token": []
-          }
-        ]
-      }
     }
   },
   "components": {
