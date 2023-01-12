@@ -11,9 +11,8 @@
     "contact": {
       "name": "Support",
       "url": "https://italiakit.it/api",
-      "email": "support_api@italiakit.it"
+      "email": "supporto_api@italiakit.it"
     },
-    "termsOfService": "https://italiakit.it/terms",
     "license": {
       "url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "name": "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
@@ -25,7 +24,7 @@
       "description": "Server Italiakit API dev"
     },
     {
-      "url": "https://italia-kit-api-production.up.railway.app/",
+      "url": "https://app.italiakit.it/api/v1",
       "description": "Server Italiakit API prod"
     }
   ],
