@@ -24,7 +24,7 @@
       "description": "Server Italiakit API dev"
     },
     {
-      "url": "https://app.italiakit.it/api/v1",
+      "url": "https://app.italiakit.it",
       "description": "Server Italiakit API prod"
     }
   ],
