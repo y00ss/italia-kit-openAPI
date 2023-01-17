@@ -116,7 +116,3 @@ Le fonti dei dati provengono :
 - [Dipartimento per gli Affari Interni e Territoriali](https://dait.interno.gov.it/)
 - [Istituto Nazionale di Statistica](https://demo.istat.it/)
 - [Poste Italiane](https://www.poste.it/index.html)
-
-## Feutures ? 
-
-Implementazione di **GraphQL**
