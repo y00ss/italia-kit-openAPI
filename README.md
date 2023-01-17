@@ -1,4 +1,4 @@
-# italia-kit-openAPI
+# italiaKIT API
 
 Questo repository contiene la descrizione, con specifica **OpenAPI**, di tutti gli endpoint del servizio [italiaKIT](https://www.italiakit.it).
 
